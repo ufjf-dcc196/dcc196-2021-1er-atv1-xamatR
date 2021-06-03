@@ -13,7 +13,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="32dp"
-        android:text="201676003"
+        android:text="@string/matricula"
         android:textSize="30sp"
         app:layout_constraintStart_toEndOf="@+id/Matricula"
         app:layout_constraintTop_toBottomOf="@+id/NomeValue" />
@@ -23,7 +23,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:text="Matricula:"
+        android:text="@string/matriculaLabel"
         android:textSize="30sp"
         app:layout_constraintEnd_toEndOf="@+id/Nome"
         app:layout_constraintTop_toBottomOf="@+id/Nome" />
@@ -32,7 +32,7 @@
         android:id="@+id/Nome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Nome:"
+        android:text="@string/nomeLabel"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,7 +47,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="36dp"
         android:layout_marginLeft="36dp"
-        android:text="Matheus Pereira"
+        android:text="@string/nome"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="@+id/Nome"
         app:layout_constraintStart_toEndOf="@+id/Nome" />
